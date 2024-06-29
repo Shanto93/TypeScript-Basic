@@ -1,28 +1,28 @@
-type NoobDeveloper = {
-  name: string;
-};
+// type NoobDeveloper = {
+//   name: string;
+// };
 
-type JuniorDeveloper = NoobDeveloper | {    //Union
-  experience: number;
-};
+// type JuniorDeveloper = NoobDeveloper | {    //Union
+//   experience: number;
+// };
 
-type SeniorDeveloper = JuniorDeveloper & {     //Intersection
-  level: string;
-};
+// type SeniorDeveloper = JuniorDeveloper & {     //Intersection
+//   level: string;
+// };
 
-const JuniorDeveloper = {
-  name: "Shanto",
-  experience: 2,
-};
+// const JuniorDeveloper = {
+//   name: "Shanto",
+//   experience: 2,
+// };
 
-enum Level {                         //Enum
-  low = "Low",
-  mid = "Medium",
-  high = "High",
-}
+// enum Level {                         //Enum
+//   low = "Low",
+//   mid = "Medium",
+//   high = "High",
+// }
 
-const developer: SeniorDeveloper = {
-  name: "shanto",
-  experience: 2,
-  level: Level.high,
-};
+// const developer: SeniorDeveloper = {
+//   name: "shanto",
+//   experience: 2,
+//   level: Level.high,
+// };
